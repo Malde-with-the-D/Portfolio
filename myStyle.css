@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(161, 235, 52);
-    width: 90%
+  background-color: rgb(255, 255, 255);
+    width: 80%
         
 }
 
@@ -9,15 +9,16 @@ body {
 .hjemmeside_overskrift{
     color: black;
     
-    font-weight: 100px
+    font-weight: 900;
         
 }
 .billede1{
     position: relative;
     margin:auto;
-    left:300px;
+    left:400px;
     
 }
+
 
 
 
