@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(255, 255, 255);
+    width: 80%
+        
+}
+
+/* overskrift h1 design */
+
+.hjemmeside_overskrift{
+    color: black;
+    
+    font-weight: 900;
+        
+}
+.billede1{
+    position: relative;
+    margin:auto;
+    left:400px;
+    
+}
+
+
+
+
+
