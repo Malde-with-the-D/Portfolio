@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8">
+<link rel="stylesheet" href="myStyle.css">
+         
+</head> 
+
+<body> 
+    <img src="billeder/databasev2.png" alt="" class="logo">
+    <nav>
+        <ul>
+       
+   <li><a href="index.html"><h3>Forside</h3></a></li>
+   <li><a href="noter.html"><h3>Noter</h3></a></li>
+   <li><a href="#"><h3>Webteknologier</h3></a>
+   <ul>
+   <li><a href="websideteknologier.html">Webteknologier</a></li>
+   <li><a href="helloworld.html">Simpel hjemmeside</a></li>
+   </ul>
+   </li>
+   <li><a href="#"><h3>AstroPi</h3></a>
+   <ul>
+     <li><a href="astroPi.html">AstroPi</a></li>
+     <li><a href="billeder/Opsamling-af-data-python.py">Kodelink</a> </li>
+   </ul>
+   </li>
+   <li><a href="#"><h3>Databaser</h3></a>
+   <ul>
+   <li><a href="Databaser.html">Databaser</a></li>
+   <li><a href="Quiz.html">Quiz</a></li>
+   </ul>
+   </li>
+   <li><a href=#><h3>Spil</h3></a>
+    <ul>
+        <li><a href="makeymakey.html">Spil og leg</a></li>
+        <li><a href="https://editor.p5js.org/Axelltm/sketches/T5bCkqdPy">kode</a></li>
+        </ul>
+        <li><a href="IT-sikkerhed.html"><h3>IT</h3></a></li>
+        <li><a href="Maskinlæring.html"><h3>ML</h3></a></li>
+       </nav>
+<h1>Databaser</h1>
+
+<h2> Hvad er en database</h2>
+
+<p> En database er et program til at gemme data i en struktureret form og skabe relationer mellem disse. 
+     I mange henseender kan man sammenligne en database med et regneark. 
+     Hvor man i regnearket har faner, har man tabeller i databasen. 
+     Her oprettes så navngivne felter hvor diverse egenskaber, som datatype (tal, tekst, dato m.m.), defineres, svarende til, at man kun havde de kolonner i et regneark man rent faktisk havde defineret, og disse kun kunne indeholde værdier af den angivne type.
+  
+</p>
+
+<br>
+
+
+<p>
+Vores database er fremskabt i excel og derfor impoteret til en csv.fil, som vores kode så har kunnet læse og opsamle data fra
+<br><br>
+man kan se databasen nedenfor:
+</p>
+<img src="billeder/Database.png">
+
+<p> Opbygningen ser lidt forvirrende ud, eftersom formatet er ændret en smule, grundet filtypen. Dog består databasen af 3 kolonner og 5 rækker.
+    kolonnerne er opdelt efter id, som agere primærnøgle i databasen, efterfølgende spørgsmål, som er det spørgsmål, som primærnøglen referer til. Til sidst er kolonnen svar, som er spørgsmålets tilhørende svar.
+<br>
+<br>
+rækkerne er nummeret 1 til 4 og en overskriftsbjælke. Det er rækkerne der er med til at vælge de spørgsmål og svar der skal vises.
+<br> I vores kode, har vi en bid, der vælger et tilfældigt tal, som derefter indgår i nogle variabler, som til sidst hiver det rigtige spørgsmål ud af databasen
+</p>
+<img src="billeder/kodebid.png" alt="">
+
+<p>
+Billedet viser den kode, som fremkalder spørgsmålet. Førstelinje giver et tilfældigt tal mellem 1 og 4. 
+Tallet x vil derefter blive sat ind i funktionen genererTekst, som kan tage teksten fra et datasæt og kan æstte det ind i et html format
+Sidste linje sætter funktion svar = 0, så svaret fra forrige spørgsmål forsvinder i det, der bliver dannet et nyt.
+
+</p>
+
+
+</body>

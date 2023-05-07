@@ -1,25 +1,328 @@
-body {
-  background-color: rgb(255, 255, 255);
-    width: 80%
-        
+*{
+margin: 0;
+padding: 0;
+
+}
+ Body {
+background-color: FFEFD5;
+font-family: Tahoma;
 }
 
-/* overskrift h1 design */
 
-.hjemmeside_overskrift{
-    color: black;
-    
-    font-weight: 900;
-        
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: DEB887;
+    }
+
+
+ul {
+margin-left: 100px;
 }
-.billede1{
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
     position: relative;
-    margin:auto;
-    left:400px;
+    padding: 0;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14;
+    font-family: 'Tervana';
+    color: black;
+    padding: 0  25px; 
+    display: block;
+    
+    }
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    left: -100px;
+    background-color: DEB887;
+    z-index: 1000;
+    
+}
+nav ul li ul li a {
+    text-decoration: none;
+    font-size: 14;
+    font-family: 'Tervana';
+    color: black;
+    padding: 0  25px; 
+    display: block;
+}
+nav ul li ul li {
+    width: 175px;
+}
+
+nav ul li:hover {
+    background-color: FAFAD2;
+    }
+nav ul li:hover ul{
+    display: block;
+}
+    
+
+
+
+
+
+.BilledeForside{
+position: fixed;
+top: 125px;
+bottom: 100px;
+right: 25px;
+width: 35%;
+
+
+
+}
+
+p {
+    width: 40%;
+}
+h1 {
+width: 50%;
+
+}
+h2 {
+    width: 50%;
+}
+
+.grisebillede {
+position: fixed;
+right: 50px;
+top: 150px;
+width: 35%;
+}
+
+h3 {
+    width: 50%;
+}
+.notertekst2 {
+    position: fixed;
+    top: 425px;
+    width: 35%;
+    right: 3.5%
     
 }
 
+.notertekst3{
+position: fixed;
+top: 525px;
+right: 3.5%;
+width: 35%;
 
+}
+.logo {
 
+position: absolute;
+top: 0;
+width: 100px;
+height: 100px;
 
+}
 
+.rumcomputer{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 35%;
+}
+
+.gruppe {
+    position: relative;
+    top: -10px;
+}
+.spg2{
+    position: relative;
+    top: 150px;
+        left: 50%;
+
+    
+}
+.spg3{
+    position: relative;
+    top: -130px;
+}
+.opgavekrav {
+    position: relative;
+    width: 40%;
+    left: 0px;
+}
+.spg4{
+top: 500px;
+}
+.do {
+    position: relative;
+    left: 50%;
+        width: 20%;
+}
+
+.dont {
+    position: relative;
+    left: 50%;
+    width: 20%;
+}
+.spg5 {
+    position: relative;
+    top: -375px;
+}
+.spg6 {
+    position: relative;
+    top: -250px;  
+}
+.spg7 {
+    position: relative;
+    top: -435px;
+    left: 50%;
+    
+}
+
+.linje1 {
+    position: absolute;
+    top: 2270px;
+    left: 50%;
+    width: 35%;
+}
+.linje2{
+    position: absolute;
+    top: 2480px;
+    left: 50%;
+    width: 35%;
+}
+.linje3{
+    position: absolute;
+    top: 2630px;
+    left: 50%;
+    width: 35%;
+}
+.linje4{
+    position: absolute;
+    top: 2760px;
+    left: 50%;
+    width: 35%;
+}
+.simpelhjemmeside{
+    position: relative;
+    left: 160px;
+    border-radius: 10px;
+    background-color: CD853F;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+
+}
+.simpelhjemmeside a {
+    text-decoration: none;
+    color: black;
+    font-family: tahoma;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.simpelhjemmeside :hover{
+    background-color: F4A460;
+}
+.infoboks{
+    position: relative;
+    left: 50%;
+    top: -563px;
+}
+.VidenOmInternet{
+    position: relative;
+    top: -150px;
+}
+.simpeltxt{
+    
+    font-size: 50px;
+    text-align: center;
+
+}
+.video{
+    width: 70%;
+
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+.video2{
+    width: 70%;
+    position: absolute;
+    top: 325px;
+    right: 15%;
+   
+}
+.videoboks{
+    border-radius: 20px;
+    background-color: CD853F;
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    right: 25px;
+    top: 125px; 
+}
+.quiz{
+    position: relative;
+    top: 100px;
+    left: 25%;
+    border-radius: 10px;
+    width:600px;
+    height: 300px;
+    background-color: CD853F;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.overskriftquiz{
+    width: 50px;
+    position: absolute;
+    left: 275px;
+}
+.spurgtboks{
+    
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+.svaretboks{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+.siden{
+   left: 50%;
+}
+.maskin{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    width: 35%;
+}
+.sikkerhed{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    width: 35%; 
+}
+
+.setup{
+    width: 35%;
+    position: relative;
+    left: 850px;
+    top: -200px;
+    border-radius: 20px;
+}
+.brugertest{
+    position: relative;
+    top: -600px;
+}
